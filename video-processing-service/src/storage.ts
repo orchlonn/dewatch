@@ -133,5 +133,5 @@ function ensureDirectoryExistence(dirPath: string) {
   }
 }
 
-// TODO: Trying to push docker to GCP artifact registry
+// TODO: Trying to push docker to GCP artifact registry (9:00)
 // docker build -t us-central1-docker.pkg.dev/<PROJECT_ID>/video-processing-repo/video-processing-service .
