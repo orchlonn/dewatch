@@ -132,3 +132,6 @@ function ensureDirectoryExistence(dirPath: string) {
     console.log(`Directory created at ${dirPath}`);
   }
 }
+
+// TODO: Trying to push docker to GCP artifact registry
+// docker build -t us-central1-docker.pkg.dev/<PROJECT_ID>/video-processing-repo/video-processing-service .
